@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creature-commander", "Creature-commander.csproj", "{E4BE98C2-ACC3-4E08-990E-D70025363003}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4BE98C2-ACC3-4E08-990E-D70025363003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4BE98C2-ACC3-4E08-990E-D70025363003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4BE98C2-ACC3-4E08-990E-D70025363003}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{E4BE98C2-ACC3-4E08-990E-D70025363003}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{E4BE98C2-ACC3-4E08-990E-D70025363003}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{E4BE98C2-ACC3-4E08-990E-D70025363003}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal
