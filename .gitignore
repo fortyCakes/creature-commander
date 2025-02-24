@@ -1,2 +1,5 @@
 # Godot 4+ specific ignores
 .godot/
+/.vs/Creature-commander/CopilotIndices/17.13.430.18484
+/.vs/Creature-commander/DesignTimeBuild
+/.vs
