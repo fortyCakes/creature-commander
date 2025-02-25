@@ -1,0 +1,23 @@
+[gd_scene load_steps=7 format=3 uid="uid://bg0ftmlqxi8md"]
+
+[ext_resource type="PackedScene" uid="uid://bv5pvrnau4je7" path="res://Background/Map.tscn" id="1_5ojh8"]
+[ext_resource type="PackedScene" uid="uid://cj4asrxdrhr8x" path="res://unit.tscn" id="2_cfcai"]
+[ext_resource type="Texture2D" uid="uid://dwfd4x75scd6b" path="res://Units/squirrel.png" id="3_d3jye"]
+[ext_resource type="Script" path="res://GameBoard.cs" id="3_vju4r"]
+[ext_resource type="PackedScene" uid="uid://ce2tk3mvugqwu" path="res://cursor.tscn" id="5_h3iqk"]
+[ext_resource type="PackedScene" uid="uid://ddow0ox2db6jm" path="res://unit_path.tscn" id="6_wswbc"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Map" parent="." instance=ExtResource("1_5ojh8")]
+
+[node name="UnitPath" parent="." instance=ExtResource("6_wswbc")]
+
+[node name="GameBoard" type="Node2D" parent="."]
+script = ExtResource("3_vju4r")
+
+[node name="Unit" parent="GameBoard" instance=ExtResource("2_cfcai")]
+skin = ExtResource("3_d3jye")
+
+[node name="Cursor" parent="GameBoard" instance=ExtResource("5_h3iqk")]
+position = Vector2(434, 266)

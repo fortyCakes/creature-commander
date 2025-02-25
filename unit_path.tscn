@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://ddow0ox2db6jm"]
+
+[ext_resource type="TileSet" uid="uid://cjl2gfdpwdaet" path="res://GameBoard/unit_path_tileset.tres" id="1_swyus"]
+[ext_resource type="Script" path="res://unit_path.cs" id="2_benat"]
+
+[node name="UnitPath" type="TileMap"]
+tile_set = ExtResource("1_swyus")
+format = 2
+script = ExtResource("2_benat")
